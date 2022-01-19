@@ -1,20 +1,17 @@
-## Hello There!
-  <div >
-    <p>- 🔭 I’m currently working on ...</p>
-    <p>- 🌱 I’m currently learning ...</p>
-    <p>- 👯 I’m looking to collaborate on ...</p>
-    <p>- 🤔 I’m looking for help with ...</p>
-    <p>- 💬 Ask me about ...</p>
-    <p>- 📫 How to reach me: ...</p>
-    <p>- 😄 Pronouns: ...</p>
-    <p>- ⚡ Fun fact: ...</p>
-  </div>
+## Hello There 🖐🏻!
+
 
 <div>
-  <a href="https://github.com/marcelopirro">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=marcelopirro&show_icons=true&theme=aura&include_all_commits=true&count_private=true"/>
+  <p> - 👨🏻‍💻 I’m a Computer Science Student</p>
+     <p> - 🌱 I’m currently studing at Federal University of São Carlos
+     <p>- 💬 I’m 23 
+     <p> -📍I’m living in Brazil </p>
 </div>
-  
+
+  <div>
+    <a href="https://github.com/marcelopirro">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=marcelopirro&show_icons=true&theme=aura&include_all_commits=true&count_private=true"/>
+  </div>
   
 <div style="display: inline_block"><br>
   <img align="center" alt="Marcelo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -31,13 +28,4 @@
  
  
 </div>
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  

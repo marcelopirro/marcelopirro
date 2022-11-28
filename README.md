@@ -20,7 +20,7 @@
   <img align="center" alt="Marcelo-C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
   <img align="center" alt="Marcelo-Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
   <img align="center" alt="Marcelo-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-  <img align="right" alt="Marcelo-pic" height="150" ;" src="https://cdn.picrew.me/shareImg/org/202211/41153_3qgTJVtc.png">
+  <img align="right" alt="Marcelo-pic" height="150" ;" src="https://i.pinimg.com/564x/30/0e/5c/300e5ca301ef3f7d05f856e3fa4bfd9e.jpg">
 </div>
   
   ##

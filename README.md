@@ -28,7 +28,7 @@
   <a href="https://instagram.com/marcelo.pirro" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:marcelopirro98@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/marcelopirro" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href="./Resume(English).pdf" target="_blank"><img src="https://img.shields.io/badge/Resume-grey?style=for-the-badge" target="_blank"></a> 
+  <a href="[./Resume(English).pdf](https://github.com/marcelopirro/marcelopirro/raw/main/Resume(English).pdf)" target="_blank"><img src="https://img.shields.io/badge/Resume-grey?style=for-the-badge" target="_blank"></a> 
  
  ![Snake animation](https://github.com/marcelopirro/marcelopirro/blob/output/github-contribution-grid-snake.svg)
   

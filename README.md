@@ -1,8 +1,7 @@
 <img src="./orange_cover.png"/>
-
+##
 
 <div>
-  <p> - 👨🏻‍💻 I’m a Computer Science Student</p>
   <p> - 🌱 I’m currently studing at Federal University of São Carlos
   <p>- 💬 I’m 24 
   <p> -📍I’m living in Brazil </p>

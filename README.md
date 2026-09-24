@@ -38,12 +38,7 @@
 <br/><br/>
 
 <!-- Dynamic Live Streak Telemetry -->
-<img src="https://streak-stats.demolab.com?user=marcelopirro&theme=dark&background=070A12&border=00E5FF&stroke=00E5FF&ring=FF6B00&fire=FF6B00&currStreakLabel=00E5FF&dates=94A3B8&sideNums=F8FAFC&sideLabels=00E5FF&currStreakNum=FF7700" width="60%" alt="Live GitHub Streak Telemetry" />
-
-<br/><br/>
-
-<!-- Animated Contribution Matrix Snake -->
-<img src="https://raw.githubusercontent.com/marcelopirro/marcelopirro/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution Matrix Snake" />
+<img src="https://streak-stats.demolab.com?user=marcelopirro&theme=dark&background=0E1526&border=00E5FF&stroke=00E5FF&ring=FF6B00&fire=FF6B00&currStreakLabel=00E5FF&dates=94A3B8&sideNums=F8FAFC&sideLabels=00E5FF&currStreakNum=FF7700" width="495" alt="Live GitHub Contribution Streak" />
 
 <br/><br/>
 
@@ -53,9 +48,9 @@
 <br/>
 
 <p align="center">
-  <a href="https://marcelopirro.vercel.app/" target="_blank"><img src="./btn_portfolio.svg" width="32%" alt="Portfolio Station" /></a>
-  <a href="https://www.linkedin.com/in/marcelopirro" target="_blank"><img src="./btn_linkedin.svg" width="32%" alt="LinkedIn Frequency" /></a>
-  <a href="mailto:marcelopirro@outlook.com"><img src="./btn_email.svg" width="32%" alt="Direct Dispatch" /></a>
+  <a href="https://marcelopirro.vercel.app/" target="_blank"><img src="./btn_portfolio.svg" width="31%" alt="Portfolio Station" /></a>
+  <a href="https://www.linkedin.com/in/marcelopirro" target="_blank"><img src="./btn_linkedin.svg" width="31%" alt="LinkedIn Frequency" /></a>
+  <a href="mailto:marcelopirro@outlook.com"><img src="./btn_email.svg" width="31%" alt="Direct Dispatch" /></a>
 </p>
 
 <br/>

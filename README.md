@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="./tactical_header.svg" width="100%" alt="Marcelo Pirro // Backend Developer & Distributed Systems Engineer" />
+<!-- ==================== MISSION CONTROL: PRIMARY HUD ==================== -->
+<img src="./hud_header.svg" width="100%" alt="Marcelo Pirro // Backend Developer & Distributed Systems Engineer" />
 
 <br/><br/>
 
@@ -11,39 +12,30 @@
 
 <br/><br/>
 
-<!-- ==================== 01. OPERATIONAL BACKGROUND ==================== -->
-<img src="./tactical_about.svg" width="100%" alt="Operational Background & Specification" />
+<!-- ==================== BENTO 01: ACTIVE MISSIONS (WIDE TOP + 2 SQUARES) ==================== -->
+<img src="./hud_mission.svg" width="100%" alt="Active Missions & Field Operations" />
 
 <br/><br/>
 
-<!-- ==================== 02. TECHNICAL ARSENAL ==================== -->
-<img src="./tactical_stack.svg" width="100%" alt="Technical Arsenal & Radar Specification" />
+<!-- ==================== BENTO 02: SIDE-BY-SIDE TACTICAL MODULES ==================== -->
+<p align="center">
+  <a href="https://marcelopirro.vercel.app"><img src="./hud_stack.svg" width="49%" alt="Weapons & Arsenal" /></a>
+  <a href="https://marcelopirro.vercel.app/transmissions"><img src="./hud_transmissions.svg" width="49%" alt="Intel & Transmissions" /></a>
+</p>
 
-<br/><br/>
+<br/>
 
+<!-- ==================== CORE TECH STACK ICONS ==================== -->
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=java,spring,c,python,ts,react,kafka,rabbitmq,postgres,mongodb,docker,kubernetes,aws,git,linux" alt="Core Arsenal Technologies" />
 </a>
 
 <br/><br/>
 
-<!-- ==================== 03. FEATURED TRANSMISSIONS ==================== -->
-<img src="./tactical_transmissions.svg" width="100%" alt="Featured Transmissions & Architectural Benchmarks" />
-
-<br/>
-
-| Transmission | Architecture Topic | Direct Link |
-| :--- | :--- | :---: |
-| **TRANS-01** | `Spring Boot vs Quarkus // Processing Cost & Latency Benchmark` | [Read Dispatch ↗](https://marcelopirro.vercel.app/transmissions/spring-boot-vs-quarkus-processing-cost) |
-| **TRANS-02** | `AWS Certified Cloud Practitioner Journey // Tactical Dispatch` | [Read Dispatch ↗](https://marcelopirro.vercel.app/transmissions/aws-certified-cloud-practitioner-journey) |
-| **TRANS-03** | `Engineering Odyssey // UFSCar → Embraer → Conexão Tech` | [Read Dispatch ↗](https://marcelopirro.vercel.app/transmissions/graduation-ufscar-embraer-to-itau) |
+<!-- ==================== BENTO 03: SECURE FREQUENCY COMMS ==================== -->
+<img src="./hud_comms.svg" width="100%" alt="Secure Transmission Frequency & Comms" />
 
 <br/><br/>
-
-<!-- ==================== 04. SECURE COMMS ==================== -->
-<img src="./tactical_comms.svg" width="100%" alt="Secure Transmission Frequency & Comms" />
-
-<br/>
 
 <sub>ANAHEIM TACTICAL PROTOCOL // MARCELO PIRRO // ALL SYSTEMS OPERATIONAL</sub>
 

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 370" width="100%" height="100%" fill="none">
+  <defs>
+    <pattern id="hudStackGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#00e5ff" stroke-width="0.75" stroke-opacity="0.06" />
+    </pattern>
+
+    <linearGradient id="hudStackGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b101d" />
+      <stop offset="50%" stop-color="#070a12" />
+      <stop offset="100%" stop-color="#0e1526" />
+    </linearGradient>
+
+    <linearGradient id="orangeBarStackHalf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6b00" stop-opacity="0" />
+      <stop offset="30%" stop-color="#ff7700" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#ff7700" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ff6b00" stop-opacity="0" />
+    </linearGradient>
+
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .beacon { animation: pulse 2s infinite ease-in-out; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    </style>
+  </defs>
+
+  <!-- Chassis -->
+  <rect width="440" height="370" rx="8" fill="url(#hudStackGrad)" stroke="#00e5ff" stroke-width="1.3" stroke-opacity="0.28" />
+  <rect x="2" y="2" width="436" height="366" rx="6" fill="url(#hudStackGrid)" />
+
+  <!-- Corner Brackets -->
+  <path d="M 10 30 L 10 10 L 30 10" fill="none" stroke="#00e5ff" stroke-width="2.6" stroke-linecap="square" />
+  <path d="M 410 10 L 430 10 L 430 30" fill="none" stroke="#00e5ff" stroke-width="2.6" stroke-linecap="square" />
+  <path d="M 10 340 L 10 360 L 30 360" fill="none" stroke="#00e5ff" stroke-width="2.6" stroke-linecap="square" />
+  <path d="M 410 360 L 430 360 L 430 340" fill="none" stroke="#00e5ff" stroke-width="2.6" stroke-linecap="square" />
+
+  <!-- Header -->
+  <g transform="translate(20, 30)">
+    <circle cx="5" cy="5" r="4.5" fill="#00e5ff" />
+    <circle cx="5" cy="5" r="8" fill="#00e5ff" fill-opacity="0.25" class="beacon" />
+    <text x="20" y="9" class="mono" font-size="13" font-weight="800" fill="#f8fafc" letter-spacing="0.08em">// 02. WEAPONS &amp; ARSENAL</text>
+    <text x="400" y="9" class="mono" font-size="10" font-weight="700" text-anchor="end" fill="#ff9933">SPEC: CLOUD / JVM</text>
+  </g>
+
+  <line x1="20" y1="46" x2="420" y2="46" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.2" />
+
+  <!-- Stack Module 1: Languages -->
+  <g transform="translate(20, 58)">
+    <rect width="400" height="50" rx="4" fill="#0e1526" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.25" />
+    <text x="12" y="19" class="mono" font-size="10" font-weight="700" fill="#00e5ff" letter-spacing="0.06em">LANGUAGES &amp; RUNTIMES</text>
+    <text x="12" y="38" class="mono" font-size="13.5" font-weight="800" fill="#f8fafc">Java (17/21) • Python • TypeScript • SQL</text>
+  </g>
+
+  <!-- Stack Module 2: Frameworks -->
+  <g transform="translate(20, 116)">
+    <rect width="400" height="50" rx="4" fill="#0e1526" stroke="#ff7700" stroke-width="1" stroke-opacity="0.3" />
+    <text x="12" y="19" class="mono" font-size="10" font-weight="700" fill="#ff9933" letter-spacing="0.06em">BACKEND &amp; FRAMEWORKS</text>
+    <text x="12" y="38" class="mono" font-size="13.5" font-weight="800" fill="#f8fafc">Spring Boot • Quarkus • Hibernate / JPA</text>
+  </g>
+
+  <!-- Stack Module 3: Messaging -->
+  <g transform="translate(20, 174)">
+    <rect width="400" height="50" rx="4" fill="#0e1526" stroke="#ffffff" stroke-width="1" stroke-opacity="0.08" />
+    <text x="12" y="19" class="mono" font-size="10" font-weight="700" fill="#00e5ff" letter-spacing="0.06em">MESSAGING &amp; STREAMING</text>
+    <text x="12" y="38" class="mono" font-size="13.5" font-weight="800" fill="#f8fafc">Apache Kafka • RabbitMQ • Event-Driven</text>
+  </g>
+
+  <!-- Stack Module 4: Databases -->
+  <g transform="translate(20, 232)">
+    <rect width="400" height="50" rx="4" fill="#0e1526" stroke="#ffffff" stroke-width="1" stroke-opacity="0.08" />
+    <text x="12" y="19" class="mono" font-size="10" font-weight="700" fill="#cbd5e1" letter-spacing="0.06em">DATABASES &amp; CACHING</text>
+    <text x="12" y="38" class="mono" font-size="13.5" font-weight="800" fill="#f8fafc">PostgreSQL • Oracle DB • MySQL • Redis</text>
+  </g>
+
+  <!-- Stack Module 5: Cloud & DevOps -->
+  <g transform="translate(20, 290)">
+    <rect width="400" height="50" rx="4" fill="#0e1526" stroke="#ff7700" stroke-width="1" stroke-opacity="0.3" />
+    <text x="12" y="19" class="mono" font-size="10" font-weight="700" fill="#ff9933" letter-spacing="0.06em">CLOUD &amp; DEVOPS INFRA</text>
+    <text x="12" y="38" class="mono" font-size="13.5" font-weight="800" fill="#f8fafc">AWS (Certified) • Docker • K8s • CI/CD</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <path d="M 20 354 L 420 354" stroke="url(#orangeBarStackHalf)" stroke-width="2.5" stroke-linecap="round" />
+</svg>

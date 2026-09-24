@@ -32,13 +32,15 @@
 
 <br/><br/>
 
-<!-- ==================== 04. ROBOTIC TELEMETRY & DIAGNOSTICS ==================== -->
-<img src="./mecha_telemetry.svg" width="100%" alt="Robot Status & Telemetry Diagnostics" />
+<!-- ==================== 04. ROBOTIC TELEMETRY // REAL-TIME DYNAMIC METRICS ==================== -->
+<img src="./hud_telemetry_header.svg" width="100%" alt="Robotic Telemetry Live Performance Gauges" />
 
 <br/><br/>
 
-<!-- Dynamic Live Streak Telemetry -->
-<img src="https://streak-stats.demolab.com?user=marcelopirro&theme=dark&background=0E1526&border=00E5FF&stroke=00E5FF&ring=FF6B00&fire=FF6B00&currStreakLabel=00E5FF&dates=94A3B8&sideNums=F8FAFC&sideLabels=00E5FF&currStreakNum=FF7700" width="495" alt="Live GitHub Contribution Streak" />
+<p align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=marcelopirro&show_icons=true&theme=dark&bg_color=070A12&title_color=00E5FF&text_color=CBD5E1&icon_color=FF7700&border_color=00E5FF&include_all_commits=true&count_private=true&custom_title=UNIT-MP%20//%20CODE%20TELEMETRY" width="49%" alt="Unit-MP Live Code Telemetry" />
+  <img src="https://streak-stats.demolab.com?user=marcelopirro&theme=dark&background=070A12&border=00E5FF&stroke=00E5FF&ring=FF7700&fire=FF7700&currStreakLabel=00E5FF&dates=94A3B8&sideNums=F8FAFC&sideLabels=00E5FF&currStreakNum=FF7700" width="49%" alt="Live System Streak & Contributions" />
+</p>
 
 <br/><br/>
 

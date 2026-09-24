@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 270" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Grid Pattern -->
+    <pattern id="tacticalGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#00e5ff" stroke-width="0.75" stroke-opacity="0.07" />
+    </pattern>
+
+    <!-- Linear Gradients -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b101d" />
+      <stop offset="50%" stop-color="#070a12" />
+      <stop offset="100%" stop-color="#0e1526" />
+    </linearGradient>
+
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6b00" stop-opacity="0" />
+      <stop offset="30%" stop-color="#ff7700" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#ff8800" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ff6b00" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Font Family -->
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-weight: 800; letter-spacing: 0.12em; fill: #f8fafc; }
+      .telemetry { font-size: 11px; fill: #64748b; letter-spacing: 0.08em; }
+      .beacon { animation: pulse 2s infinite ease-in-out; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    </style>
+  </defs>
+
+  <!-- Base Chassis -->
+  <rect width="920" height="270" rx="8" fill="url(#headerGrad)" stroke="#00e5ff" stroke-width="1.2" stroke-opacity="0.28" />
+
+  <!-- Tactical Grid -->
+  <rect x="2" y="2" width="916" height="266" rx="6" fill="url(#tacticalGrid)" />
+
+  <!-- Mecha Corner Brackets -->
+  <!-- Top-Left Bracket -->
+  <path d="M 12 36 L 12 12 L 36 12" fill="none" stroke="#00e5ff" stroke-width="2.8" stroke-linecap="square" />
+  <!-- Top-Right Bracket -->
+  <path d="M 884 12 L 908 12 L 908 36" fill="none" stroke="#00e5ff" stroke-width="2.8" stroke-linecap="square" />
+  <!-- Bottom-Left Bracket -->
+  <path d="M 12 234 L 12 258 L 36 258" fill="none" stroke="#00e5ff" stroke-width="2.8" stroke-linecap="square" />
+  <!-- Bottom-Right Bracket -->
+  <path d="M 884 258 L 908 258 L 908 234" fill="none" stroke="#00e5ff" stroke-width="2.8" stroke-linecap="square" />
+
+  <!-- Top Telemetry Bar -->
+  <g transform="translate(32, 34)">
+    <!-- Beacon Dot -->
+    <circle cx="5" cy="5" r="4.5" fill="#10b981" />
+    <circle cx="5" cy="5" r="8" fill="#10b981" fill-opacity="0.25" class="beacon" />
+    <text x="20" y="9" class="mono telemetry" font-weight="600" fill="#10b981">SYS.ONLINE // TELEMETRY NOMINAL</text>
+    
+    <text x="460" y="9" class="mono telemetry" text-anchor="middle" fill="#00e5ff" fill-opacity="0.8">SPEC: HIGH-AVAILABILITY &amp; DISTRIBUTED ARCHITECTURE</text>
+    <text x="856" y="9" class="mono telemetry" text-anchor="end" fill="#94a3b8">SECTOR: SÃO PAULO, BR</text>
+  </g>
+
+  <!-- Divider Line -->
+  <path d="M 32 48 L 888 48" stroke="url(#cyanLine)" stroke-width="1" />
+
+  <!-- Main Callsign / Name -->
+  <g transform="translate(460, 110)">
+    <text x="0" y="0" text-anchor="middle" class="mono title" font-size="40">MARCELO PIRRO</text>
+  </g>
+
+  <!-- Tactical Sub-Callsign Badge -->
+  <g transform="translate(460, 144)">
+    <rect x="-295" y="-16" width="590" height="30" rx="4" fill="#0e1526" stroke="#ff7700" stroke-width="1.2" stroke-opacity="0.75" />
+    <circle cx="-278" cy="-1" r="3.5" fill="#ff7700" />
+    <text x="0" y="4" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#ff9933" letter-spacing="0.1em">
+      BACKEND ENGINEER // HIGH-AVAILABILITY &amp; DISTRIBUTED SYSTEMS
+    </text>
+  </g>
+
+  <!-- Mission & Credential Chips -->
+  <g transform="translate(460, 196)">
+    <!-- Conexão Tech / Itaú -->
+    <rect x="-395" y="-12" width="168" height="24" rx="3" fill="#152038" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.4" />
+    <text x="-311" y="4" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#00e5ff">CONEXÃO TECH (ITAÚ)</text>
+
+    <!-- UFSCar Alumni -->
+    <rect x="-215" y="-12" width="140" height="24" rx="3" fill="#152038" stroke="#ffffff" stroke-width="1" stroke-opacity="0.15" />
+    <text x="-145" y="4" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#cbd5e1">B.S. CS // UFSCAR</text>
+
+    <!-- Core Stack -->
+    <rect x="-63" y="-12" width="220" height="24" rx="3" fill="#152038" stroke="#ff7700" stroke-width="1" stroke-opacity="0.4" />
+    <text x="47" y="4" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#ff9933">JAVA • SPRING • KAFKA</text>
+
+    <!-- AWS Certified -->
+    <rect x="169" y="-12" width="226" height="24" rx="3" fill="#ff7700" fill-opacity="0.12" stroke="#ff7700" stroke-width="1" stroke-opacity="0.75" />
+    <circle cx="182" cy="0" r="3.5" fill="#ff7700" />
+    <text x="287" y="4" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#ffaa44">AWS CERTIFIED PRACTITIONER</text>
+  </g>
+
+  <!-- Bottom Tactical Accent Bar -->
+  <path d="M 32 240 L 888 240" stroke="url(#orangeGlow)" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Subtle Telemetry Index -->
+  <text x="460" y="254" text-anchor="middle" class="mono telemetry" font-size="9" fill="#475569">
+    ANAHEIM TACTICAL PROTOCOL // VER. 2.4 // MARCELOPIRRO.VERCEL.APP
+  </text>
+</svg>

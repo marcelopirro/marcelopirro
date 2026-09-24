@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- ==================== MISSION CONTROL: PRIMARY HUD ==================== -->
+<!-- ==================== 00. PRIMARY MISSION CONTROL HUD ==================== -->
 <img src="./hud_header.svg" width="100%" alt="Marcelo Pirro // Backend Developer & Distributed Systems Engineer" />
 
 <br/><br/>
@@ -12,12 +12,12 @@
 
 <br/><br/>
 
-<!-- ==================== BENTO 01: ACTIVE MISSIONS (WIDE TOP + 2 SQUARES) ==================== -->
+<!-- ==================== 01. ACTIVE MISSIONS (BENTO: TOP WIDE + 2 SQUARES) ==================== -->
 <img src="./hud_mission.svg" width="100%" alt="Active Missions & Field Operations" />
 
 <br/><br/>
 
-<!-- ==================== BENTO 02: SIDE-BY-SIDE TACTICAL MODULES ==================== -->
+<!-- ==================== 02. SIDE-BY-SIDE TACTICAL MODULES ==================== -->
 <p align="center">
   <a href="https://marcelopirro.vercel.app"><img src="./hud_stack.svg" width="49%" alt="Weapons & Arsenal" /></a>
   <a href="https://marcelopirro.vercel.app/transmissions"><img src="./hud_transmissions.svg" width="49%" alt="Intel & Transmissions" /></a>
@@ -25,17 +25,40 @@
 
 <br/>
 
-<!-- ==================== CORE TECH STACK ICONS ==================== -->
+<!-- ==================== 03. CORE TECH STACK ICONS ==================== -->
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=java,spring,c,python,ts,react,kafka,rabbitmq,postgres,mongodb,docker,kubernetes,aws,git,linux" alt="Core Arsenal Technologies" />
 </a>
 
 <br/><br/>
 
-<!-- ==================== BENTO 03: SECURE FREQUENCY COMMS ==================== -->
-<img src="./hud_comms.svg" width="100%" alt="Secure Transmission Frequency & Comms" />
+<!-- ==================== 04. ROBOTIC TELEMETRY & DIAGNOSTICS ==================== -->
+<img src="./mecha_telemetry.svg" width="100%" alt="Robot Status & Telemetry Diagnostics" />
 
 <br/><br/>
+
+<!-- Dynamic Live Streak Telemetry -->
+<img src="https://streak-stats.demolab.com?user=marcelopirro&theme=dark&background=070A12&border=00E5FF&stroke=00E5FF&ring=FF6B00&fire=FF6B00&currStreakLabel=00E5FF&dates=94A3B8&sideNums=F8FAFC&sideLabels=00E5FF&currStreakNum=FF7700" width="60%" alt="Live GitHub Streak Telemetry" />
+
+<br/><br/>
+
+<!-- Animated Contribution Matrix Snake -->
+<img src="https://raw.githubusercontent.com/marcelopirro/marcelopirro/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution Matrix Snake" />
+
+<br/><br/>
+
+<!-- ==================== 05. SECURE FREQUENCY HEADER & CLICKABLE BUTTONS ==================== -->
+<img src="./hud_comms_header.svg" width="100%" alt="Secure Transmission Frequencies Header" />
+
+<br/>
+
+<p align="center">
+  <a href="https://marcelopirro.vercel.app/" target="_blank"><img src="./btn_portfolio.svg" width="32%" alt="Portfolio Station" /></a>
+  <a href="https://www.linkedin.com/in/marcelopirro" target="_blank"><img src="./btn_linkedin.svg" width="32%" alt="LinkedIn Frequency" /></a>
+  <a href="mailto:marcelopirro@outlook.com"><img src="./btn_email.svg" width="32%" alt="Direct Dispatch" /></a>
+</p>
+
+<br/>
 
 <sub>ANAHEIM TACTICAL PROTOCOL // MARCELO PIRRO // ALL SYSTEMS OPERATIONAL</sub>
 
